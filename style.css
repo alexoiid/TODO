@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.bg-image{
+  background: url('gif.gif') no-repeat center fixed;
+  background-size:cover;
+  filter:blur(8px);
+
+  width: 500vh;
+  height: 120vh;
+  position: fixed;
+  margin-top:-8px;
+  margin-left: -8px;
+
+
+  }
+
+
+#notes{
+  margin-left: 0.2%;
+  color: #FFF;
+ font-size: 14px;
+ padding:6px;
+ margin-top:10px;
+ margin-bottom:5px;
+ background-color: rgb(52, 162, 236);
+ box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.733);
+
+
+}
+ #Add {
+  font-size: 14px;
+  /* display: inline-block;
+  border-radius: 4px;
+  background-color: #571086;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px; */
+  padding: 15px;
+  width: 150px;
+  /* transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 32%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.733); */
+}
+/*
+.Add span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.Add span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.Add:hover span {
+  padding-right: 25px;
+}
+
+.Add:hover span:after {
+  opacity: 1;
+  right: 0;
+} */
+
+#remove-all{
+  padding: 15px;
+  width: 150px;
+  margin: 5px;
+  margin-left: 52%;
+  margin-right: 20%;
+  font-size: 14px;
+}
+/* #remove-all {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #571086;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+ 
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 32%;
+  margin-right: 20%;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.733);
+}
+
+#remove-all span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#remove-all span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#remove-all:hover span {
+  padding-right: 25px;
+}
+
+#remove-all:hover span:after {
+  opacity: 1;
+  right: 0;
+
+} */
+.Rcontainer{
+
+  position: absolute;
+  margin-top: 20%;
+  margin-left:26%;
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+
+
+
+}
+input[type=text] {
+
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.733);
+  }
+input[type=text]:focus {
+  border: 3px solid #555;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.733);
+}
+#container {
+  margin-left: 10%;
+}
+.rectangle {
+  position:absolute;
+  bottom:60vh;
+  left: 0;
+  height: 50vh;
+  width: 195vh;
+  margin-left: -800px;
+  background-color: #000000;
+  filter:blur(8px);
+}
+.rectangle1 {
+  position:absolute;
+  bottom: -11vh;
+  left: 0;
+  height: 59%;
+  width: 195vh;
+  margin-left: -800px;
+  background-color: rgb(0, 0, 0);
+  filter:blur(8px);
+}
